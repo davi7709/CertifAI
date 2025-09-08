@@ -1,4 +1,0 @@
-package com.certifai.certifai.user.application.port.in;
-
-public interface RegisterUser {
-}

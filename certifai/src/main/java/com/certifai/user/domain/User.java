@@ -1,4 +1,4 @@
 package com.certifai.user.domain;
 
-public class User {
+public record User (String name, String email, String password){
 }

@@ -11,5 +11,5 @@ public interface OutputMapper {
     User toDomain(UserEntity userEntity);
 
     @Mapping(target = "id", ignore = true)
-    UserEntity toEntity(User user);
+    UserEntity toEntity(User domain);
 }

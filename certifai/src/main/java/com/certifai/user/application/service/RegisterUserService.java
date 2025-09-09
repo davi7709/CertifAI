@@ -13,6 +13,7 @@ public class RegisterUserService implements RegisterUser {
         this.userGateway = userGateway;
     }
 
+    @Override
     public User execute(User user){
         return userGateway.persist(user);
     }

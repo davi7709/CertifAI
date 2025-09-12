@@ -1,4 +1,4 @@
-package com.certifai.user.gateway.presentation.http;
+package com.certifai.user.gateway.presentation.http.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
